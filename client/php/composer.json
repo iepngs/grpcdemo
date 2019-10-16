@@ -1,0 +1,22 @@
+{
+    "name": "iepngs/grpcdemo",
+    "description": "gprc demo with golang and php client",
+    "type": "project",
+    "require": {
+        "grpc/grpc": "^1.22",
+        "google/protobuf": "^3.10"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "iepngs",
+            "email": "iepngs@aliyun.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hello\\": "./grpclib/Hello/",
+            "GPBMetadata\\": "./grpclib/GPBMetadata/"
+        }
+    }
+}
